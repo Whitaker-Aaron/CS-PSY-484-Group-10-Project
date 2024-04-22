@@ -22,6 +22,7 @@ public class ThrowMgr : MonoBehaviour
     void Start()
     {
         fireAction = new InputAction(binding: "<XRController>{RightHand}/triggerPressed");
+        //fireAction = new InputAction(binding: "<Keyboard>/w");
         fireAction.performed += _ => Fire();
         fireAction.Enable();
     }
