@@ -6,6 +6,8 @@ public class Platform : MonoBehaviour
 {
     public float speed;
 
+    public Vector3 velocity;
+
     List<GameObject> onPlatform;
 
     // Start is called before the first frame update
@@ -17,17 +19,18 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.position += new Vector3(speed, 0, 0) * Time.deltaTime;
+        velocity = new Vector3(speed, 0, 0) * Time.deltaTime;
+        gameObject.transform.position += velocity;
 
         foreach(GameObject ob in onPlatform)
         {
-            ob.transform.position += new Vector3(speed, 0, 0) * Time.deltaTime;
+            ob.transform.position += velocity;
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("MovingObject"))
+        if (other.TryGetComponent<Entity>(out Entity _))
         {
             onPlatform.Add(other.gameObject);
         }

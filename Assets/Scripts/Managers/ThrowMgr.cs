@@ -11,6 +11,8 @@ public class ThrowMgr : MonoBehaviour
 
     public InputAction fireAction;
 
+    public Vector3 rightHandPrevPos;
+
     public float forceMultiplier;
 
     private void Awake()
