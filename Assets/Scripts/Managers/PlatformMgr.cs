@@ -6,6 +6,8 @@ public class PlatformMgr : MonoBehaviour
 {
     public static PlatformMgr instance;
 
+    public Platform platform;
+
     private void Awake()
     {
         instance = this;
