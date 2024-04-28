@@ -21,7 +21,8 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.TryGetComponent<Ball>(out Ball _))
         {
             Debug.Log("collision detected");
-            ScoreMgr.instance.score += 1;
+            //ScoreMgr.instance.score += 1;
+            ScoreMgr.instance.scoreCount += 100;
             gameObject.SetActive(false);
         }
     }
