@@ -10,13 +10,16 @@ public class ThrowMgr : MonoBehaviour
     public Ball shootObject; // The object to shoot
     public GameObject shootObjectholder;
 
-    public Ball heldBall;
+    public Ball leftHeldBall;
+    public Ball rightHeldBall;
 
     public InputActionAsset inputActions;
-    public InputAction holdAction;
-    public InputAction releaseAction;
+    public InputAction lHoldAction;
+    public InputAction lReleaseAction;
+    public InputAction rHoldAction;
+    public InputAction rReleaseAction;
 
-
+    public List<Vector3> leftHandPrevPos;
     public List<Vector3> rightHandPrevPos;
     public List<Vector3> platformPrevPos; // Prevents extra force from being added due to the platform
 
@@ -31,19 +34,35 @@ public class ThrowMgr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        holdAction = inputActions.FindActionMap("XRI RightHand Interaction").FindAction("Activate");
-        holdAction.performed += _ => Hold();
-        holdAction.Enable();
+        lHoldAction = inputActions.FindActionMap("XRI LeftHand Interaction").FindAction("Activate");
+        lHoldAction.performed += _ => LeftHold();
+        lHoldAction.Enable();
 
-        releaseAction = inputActions.FindActionMap("XRI RightHand Interaction").FindAction("Release");
-        releaseAction.performed += _ => Release();
-        releaseAction.Enable();
+        lReleaseAction = inputActions.FindActionMap("XRI LeftHand Interaction").FindAction("Release");
+        lReleaseAction.performed += _ => LeftRelease();
+        lReleaseAction.Enable();
+
+        leftHandPrevPos = new List<Vector3>();
+
+        rHoldAction = inputActions.FindActionMap("XRI RightHand Interaction").FindAction("Activate");
+        rHoldAction.performed += _ => RightHold();
+        rHoldAction.Enable();
+
+        rReleaseAction = inputActions.FindActionMap("XRI RightHand Interaction").FindAction("Release");
+        rReleaseAction.performed += _ => RightRelease();
+        rReleaseAction.Enable();
 
         rightHandPrevPos = new List<Vector3>();
     }
 
     private void FixedUpdate()
     {
+        leftHandPrevPos.Add(PlayerMgr.instance.leftHand.transform.position);
+        if (leftHandPrevPos.Count > posTrackerLimit)
+        {
+            leftHandPrevPos.RemoveAt(0);
+        }
+
         rightHandPrevPos.Add(PlayerMgr.instance.rightHand.transform.position);
         if(rightHandPrevPos.Count > posTrackerLimit )
         {
@@ -60,26 +79,60 @@ public class ThrowMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(heldBall != null)
+        if (leftHeldBall != null)
         {
-            heldBall.transform.position = PlayerMgr.instance.rightHand.transform.position;
+            leftHeldBall.transform.position = PlayerMgr.instance.leftHand.transform.position;
+        }
+        if (rightHeldBall != null)
+        {
+            rightHeldBall.transform.position = PlayerMgr.instance.rightHand.transform.position;
         }
     }
 
-    void Hold()
+    void LeftHold()
     {
-        if (heldBall == null)
+        if (leftHeldBall == null)
+        {
+            Ball ball = Instantiate(shootObject, PlayerMgr.instance.leftHand.transform.position, Quaternion.identity, shootObjectholder.transform);
+            ball.rb.useGravity = false;
+            leftHeldBall = ball;
+        }
+
+    }
+
+    void LeftRelease()
+    {
+        if (leftHeldBall != null)
+        {
+            Vector3 pvel = Vector3.zero;
+            Vector3 rvel = Vector3.zero;
+            for (int i = 0; i < posTrackerLimit - 1; i++)
+            {
+                Vector3 p = platformPrevPos[i + 1] - platformPrevPos[i];
+                rvel += leftHandPrevPos[i + 1] - leftHandPrevPos[i] - p;
+                pvel += p;
+            }
+
+            leftHeldBall.rb.useGravity = true;
+            leftHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
+            leftHeldBall = null;
+        }
+    }
+
+    void RightHold()
+    {
+        if (rightHeldBall == null)
         {
             Ball ball = Instantiate(shootObject, PlayerMgr.instance.rightHand.transform.position, Quaternion.identity, shootObjectholder.transform);
             ball.rb.useGravity = false;
-            heldBall = ball;
+            rightHeldBall = ball;
         }
         
     }
 
-    void Release()
+    void RightRelease()
     {
-        if (heldBall != null)
+        if (rightHeldBall != null)
         {
             Vector3 pvel = Vector3.zero;
             Vector3 rvel = Vector3.zero;
@@ -90,9 +143,9 @@ public class ThrowMgr : MonoBehaviour
                 pvel += p;
             }
 
-            heldBall.rb.useGravity = true;
-            heldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
-            heldBall = null;
+            rightHeldBall.rb.useGravity = true;
+            rightHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
+            rightHeldBall = null;
         }
     }
 }
