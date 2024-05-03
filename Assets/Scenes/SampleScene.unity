@@ -3906,26 +3906,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootObject: {fileID: 8617295210073720485, guid: d198fa5d9b563e841bdf4c01dd0f0809, type: 3}
   shootObjectholder: {fileID: 18174538}
-  heldBall: {fileID: 0}
+  leftHeldBall: {fileID: 0}
+  rightHeldBall: {fileID: 0}
   inputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  holdAction:
-    m_Name: Hold
+  lHoldAction:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 8014f1ec-a539-4528-9da7-8bc57b2e5822
+    m_Id: 41ab098a-a1b3-43ef-96ad-1d56785fb400
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  releaseAction:
-    m_Name: Release
+  lReleaseAction:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 5c25f9e9-380f-478a-a111-bf62a37eb1ac
+    m_Id: 7a4a9d2d-c8bc-4401-b3a4-9a499f535807
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  rHoldAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 21f4506c-a9f7-44cc-a59a-4867b893fd73
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  rReleaseAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 074fb9b6-9eae-4ad6-a561-61494ee5d60e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  leftHandPrevPos: []
   rightHandPrevPos: []
   platformPrevPos: []
   forceMultiplier: 10
@@ -4644,6 +4664,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 970771838725575524, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1984668758703903146, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_SizeDelta.x
       value: 80
@@ -4840,6 +4864,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -23
       objectReference: {fileID: 0}
+    - target: {fileID: 2736478854845186207, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332500879931428239, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3462571325970164592, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -4880,9 +4912,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4160625060913132816, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4271511168488432969, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582428553104524465, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4592956391713993908, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_Name

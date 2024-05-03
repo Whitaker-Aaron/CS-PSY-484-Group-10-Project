@@ -95,6 +95,7 @@ public class ThrowMgr : MonoBehaviour
         {
             Ball ball = Instantiate(shootObject, PlayerMgr.instance.leftHand.transform.position, Quaternion.identity, shootObjectholder.transform);
             ball.rb.useGravity = false;
+            ball.held = true;
             leftHeldBall = ball;
         }
 
@@ -113,6 +114,7 @@ public class ThrowMgr : MonoBehaviour
                 pvel += p;
             }
 
+            leftHeldBall.held = false;
             leftHeldBall.rb.useGravity = true;
             leftHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
             leftHeldBall = null;
@@ -125,6 +127,7 @@ public class ThrowMgr : MonoBehaviour
         {
             Ball ball = Instantiate(shootObject, PlayerMgr.instance.rightHand.transform.position, Quaternion.identity, shootObjectholder.transform);
             ball.rb.useGravity = false;
+            ball.held = true;
             rightHeldBall = ball;
         }
         
@@ -144,6 +147,7 @@ public class ThrowMgr : MonoBehaviour
             }
 
             rightHeldBall.rb.useGravity = true;
+            rightHeldBall.held = false;
             rightHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
             rightHeldBall = null;
         }

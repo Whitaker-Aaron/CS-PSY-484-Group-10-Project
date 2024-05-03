@@ -5,6 +5,10 @@ using UnityEngine;
 public class Ball : Entity
 {
     float timer = 10f;
+    public bool held = true;
+
+    int lineLen = 10;
+    public LineRenderer trail;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +18,37 @@ public class Ball : Entity
     // Update is called once per frame
     void Update()
     {
-        timer -= Time.deltaTime;
-        if(timer < 0)
+        if (!held)
         {
-            Destroy(gameObject);
+            timer -= Time.deltaTime;
+            if (timer < 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+    }
+
+    private void FixedUpdate()
+    {
+        if (!held)
+        {
+            Vector3 nextPos = transform.position + rb.velocity * Time.fixedDeltaTime;
+            if(trail.positionCount < lineLen)
+            {
+                trail.positionCount += 1;
+                trail.SetPosition(trail.positionCount - 1, nextPos); 
+            }
+            else
+            {
+                Vector3[] newLine = new Vector3[lineLen];
+                for(int i = 1; i < lineLen; i++)
+                {
+                    newLine[i - 1] = trail.GetPosition(i);
+                }
+                newLine[lineLen-1] = nextPos;
+                trail.SetPositions(newLine);
+            }
         }
     }
 
