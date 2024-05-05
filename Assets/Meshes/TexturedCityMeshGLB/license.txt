@@ -1,0 +1,8 @@
+Model Information:
+* title:	Urban Neighbourhood Scene
+* source:	https://sketchfab.com/3d-models/urban-neighbourhood-scene-cfc10ca9a30c41458d24cf3d7ae49db3
+* author:	Polygrade3D (https://sketchfab.com/Polygrade3D)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

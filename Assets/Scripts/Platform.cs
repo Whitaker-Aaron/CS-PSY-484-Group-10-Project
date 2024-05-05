@@ -52,7 +52,7 @@ public class Platform : MonoBehaviour
         float angle = orientation * Mathf.Deg2Rad;
 
         velocity = new Vector3(Mathf.Cos(angle) * speedX, 0, -Mathf.Sin(angle) * speedX);
-        Debug.Log(velocity);
+        //Debug.Log(velocity);
 
 
         //velocity = new Vector3(speedX, speedY, speedZ) * Time.deltaTime;
