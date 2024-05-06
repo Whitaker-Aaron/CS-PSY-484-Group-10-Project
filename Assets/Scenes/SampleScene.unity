@@ -20666,6 +20666,10 @@ PrefabInstance:
       propertyPath: acceleration
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3872069736455852711, guid: 11e4f64a33a0c5440bc43f7f8a46a1f0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d904d5ba741f5844ca21d629bdded9f8, type: 2}
     - target: {fileID: 4773508574018354116, guid: 11e4f64a33a0c5440bc43f7f8a46a1f0, type: 3}
       propertyPath: m_Name
       value: Platform
