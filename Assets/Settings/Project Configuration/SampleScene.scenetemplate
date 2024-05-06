@@ -98,6 +98,8 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 4207427866739893108, guid: a382effdc18c19847850e87c9d70ffd1, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 567d847d782b0264c80aaebfe83a4d1a, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 8841706926471734270, guid: 2fd3e07afe5b461490fb8e314976b1b0, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 2c994d22a9398f64d9292e3849f59f92, type: 2}
@@ -160,6 +162,8 @@ MonoBehaviour:
     instantiationMode: 1
   - dependency: {fileID: 2100000, guid: 027124624d7605242a6848f710542c94, type: 2}
     instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 0680da2a8cd254f4b823c0774df04dc7, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 8748868027195207512, guid: 893219773891c784ab469a39151879b4, type: 3}
     instantiationMode: 0
   - dependency: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
@@ -204,6 +208,8 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 1787346994484839025, guid: ad818c36731146e994540a1896ad8f24, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ab95c5d0930780549821be8afb623253, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 8900000, guid: 08ea713d0e79d8e4aa41c53a0bad3fa5, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 94eebd9d324eddd49be6e843f56d7ec0, type: 2}
@@ -213,6 +219,8 @@ MonoBehaviour:
   - dependency: {fileID: 8758423527188247893, guid: 1392f805216c47742996d4742c80721c, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 1b208c9c64896bb41804f87a20a84fad, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: fd646e1018f225f41ae8c4140d3f34a1, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 919132149155446097, guid: 9e1dc1c14313460d872de39e35129b39, type: 3}
     instantiationMode: 0
@@ -225,6 +233,8 @@ MonoBehaviour:
   - dependency: {fileID: 2800000, guid: 54baed6400621ff4b8670b6116af054e, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 2fb1ae08fe2b91d4f99e363118ccd740, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 8223d8b01d0e5f44fb423c84db88059a, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 7785151267686525225, guid: 048249d9a15aa3c459399751e860bde7, type: 3}
     instantiationMode: 0
