@@ -6,13 +6,14 @@ using UnityEngine.UIElements;
 public class Enemy : MonoBehaviour
 {
 
-
+    public GameObject ParticleEffect;
     public float vertRange;
     public float rotRange;
     private float initTopHeight;
     private float initBottomHeight;
     private float initLeftRotate;
     private float initRightRotate;
+    private float vertVelocity;
     bool travelDown;
     bool rotateLeft;
 
@@ -27,6 +28,8 @@ public class Enemy : MonoBehaviour
 
         travelDown = false;
         rotateLeft = false;
+        
+        vertVelocity = 0.75f;
 
         
     }
@@ -36,7 +39,7 @@ public class Enemy : MonoBehaviour
     {
         if(travelDown == false)
         {
-            float change = transform.position.y + 0.75f * Time.deltaTime;
+            float change = transform.position.y + vertVelocity * Time.deltaTime;
             //Vector3 upTransition = new Vector3(transform.position.x, initTopHeight, transform.position.z);
             //transform.position = Vector3.Lerp(transform.position, upTransition, Time.deltaTime);
             transform.position = new Vector3(transform.position.x, change, transform.position.z);
@@ -53,7 +56,7 @@ public class Enemy : MonoBehaviour
         if (travelDown == true)
         {
 
-            float change = transform.position.y - 0.75f * Time.deltaTime;
+            float change = transform.position.y - vertVelocity * Time.deltaTime;
             //Vector3 upTransition = new Vector3(transform.position.x, initTopHeight, transform.position.z);
             //transform.position = Vector3.Lerp(transform.position, upTransition, Time.deltaTime);
             transform.position = new Vector3(transform.position.x, change, transform.position.z);
@@ -115,9 +118,17 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.TryGetComponent<Ball>(out Ball _))
         {
             Debug.Log("collision detected");
+            vertVelocity = 0.0f;
+            rotRange = 0.0f;
+
             //ScoreMgr.instance.score += 1;
             ScoreMgr.instance.scoreCount += 100;
+            ParticleEffect.GetComponent<ParticleSystem>().transform.position = new Vector3(collision.transform.position.x, collision.transform.position.y, collision.transform.position.z);
+            ParticleEffect.GetComponent<ParticleSystem>().Play();
             gameObject.SetActive(false);
+            
+
+            
         }
     }
 }
