@@ -14587,7 +14587,7 @@ MonoBehaviour:
   rightHeldBall: {fileID: 0}
   inputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   lHoldAction:
-    m_Name: 
+    m_Name: L Hold
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 41ab098a-a1b3-43ef-96ad-1d56785fb400
@@ -14596,7 +14596,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   lReleaseAction:
-    m_Name: 
+    m_Name: L Release
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 7a4a9d2d-c8bc-4401-b3a4-9a499f535807
@@ -14605,7 +14605,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   rHoldAction:
-    m_Name: 
+    m_Name: R Hold
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 21f4506c-a9f7-44cc-a59a-4867b893fd73
@@ -14614,7 +14614,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   rReleaseAction:
-    m_Name: 
+    m_Name: R Release
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 074fb9b6-9eae-4ad6-a561-61494ee5d60e

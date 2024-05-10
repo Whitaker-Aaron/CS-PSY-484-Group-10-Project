@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c16b8cedbf2d7f345acc30a7c240c872
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - eventCamera: {instanceID: 0}
+  - inputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - leftHand: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
