@@ -27,6 +27,7 @@ public class ScoreMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         scoreText.text = "Score: " + Mathf.Round(scoreCount);
     }
 }

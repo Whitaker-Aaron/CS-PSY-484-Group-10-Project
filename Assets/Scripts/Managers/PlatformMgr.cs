@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlatformMgr : MonoBehaviour
 {
     public static PlatformMgr instance;
+    public GameObject transition; 
 
     public Platform platform;
     private float firstTurn;
@@ -129,6 +130,7 @@ public class PlatformMgr : MonoBehaviour
             platform.acceleration = 0;
             platform.velocity = new Vector3 (0, 0, 0);
             platform.speedX = 0;
+            transition.GetComponent<SceneTransitionManager>().GoToScene(3);
         }
     }
 }

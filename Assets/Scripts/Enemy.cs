@@ -123,6 +123,7 @@ public class Enemy : MonoBehaviour
 
             //ScoreMgr.instance.score += 1;
             ScoreMgr.instance.scoreCount += 100;
+            MainManager.instance.playerScore += 100;
             ParticleEffect.GetComponent<ParticleSystem>().transform.position = new Vector3(collision.transform.position.x, collision.transform.position.y, collision.transform.position.z);
             ParticleEffect.GetComponent<ParticleSystem>().Play();
             gameObject.SetActive(false);
