@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Ball : Entity
@@ -9,6 +10,10 @@ public class Ball : Entity
 
     int lineLen = 10;
     public LineRenderer trail;
+
+    public AudioSource throwSource;
+    public AudioClip destroySound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +39,12 @@ public class Ball : Entity
         if (!held)
         {
             Vector3 nextPos = transform.position + rb.velocity * Time.fixedDeltaTime;
-            if(trail.positionCount < lineLen)
+            if (trail.positionCount == 0)
+            {
+                throwSource.time = 0.1f;
+                throwSource.Play();
+            }
+            if (trail.positionCount < lineLen)
             {
                 trail.positionCount += 1;
                 trail.SetPosition(trail.positionCount - 1, nextPos); 
@@ -56,7 +66,8 @@ public class Ball : Entity
     {
         if (collision.gameObject.TryGetComponent<Enemy>(out Enemy _))
         {
-            Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(destroySound, transform.position);
+            gameObject.SetActive(false);
         }
     }
 }

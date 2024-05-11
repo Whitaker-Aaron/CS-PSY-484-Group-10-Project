@@ -91,7 +91,7 @@ public class ThrowMgr : MonoBehaviour
 
     void LeftHold()
     {
-        if (leftHeldBall == null)
+        if (leftHeldBall == null && !PauseEndMgr.instance.PauseEnd())
         {
             Ball ball = Instantiate(shootObject, PlayerMgr.instance.leftHand.transform.position, Quaternion.identity, shootObjectholder.transform);
             ball.rb.useGravity = false;
@@ -105,25 +105,33 @@ public class ThrowMgr : MonoBehaviour
     {
         if (leftHeldBall != null)
         {
-            Vector3 pvel = Vector3.zero;
-            Vector3 rvel = Vector3.zero;
-            for (int i = 0; i < posTrackerLimit - 1; i++)
+            if (!PauseEndMgr.instance.PauseEnd())
             {
-                Vector3 p = platformPrevPos[i + 1] - platformPrevPos[i];
-                rvel += leftHandPrevPos[i + 1] - leftHandPrevPos[i] - p;
-                pvel += p;
-            }
+                Vector3 pvel = Vector3.zero;
+                Vector3 rvel = Vector3.zero;
+                for (int i = 0; i < posTrackerLimit - 1; i++)
+                {
+                    Vector3 p = platformPrevPos[i + 1] - platformPrevPos[i];
+                    rvel += leftHandPrevPos[i + 1] - leftHandPrevPos[i] - p;
+                    pvel += p;
+                }
 
-            leftHeldBall.held = false;
-            leftHeldBall.rb.useGravity = true;
-            leftHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
-            leftHeldBall = null;
+                leftHeldBall.held = false;
+                leftHeldBall.rb.useGravity = true;
+                leftHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
+                leftHeldBall = null;
+            }
+            else
+            {
+                Destroy(leftHeldBall.gameObject);
+                leftHeldBall = null;
+            }
         }
     }
 
     void RightHold()
     {
-        if (rightHeldBall == null)
+        if (rightHeldBall == null && !PauseEndMgr.instance.PauseEnd())
         {
             Ball ball = Instantiate(shootObject, PlayerMgr.instance.rightHand.transform.position, Quaternion.identity, shootObjectholder.transform);
             ball.rb.useGravity = false;
@@ -137,19 +145,27 @@ public class ThrowMgr : MonoBehaviour
     {
         if (rightHeldBall != null)
         {
-            Vector3 pvel = Vector3.zero;
-            Vector3 rvel = Vector3.zero;
-            for(int i = 0; i < posTrackerLimit - 1; i++)
+            if (!PauseEndMgr.instance.PauseEnd())
             {
-                Vector3 p = platformPrevPos[i + 1] - platformPrevPos[i];
-                rvel += rightHandPrevPos[i + 1] - rightHandPrevPos[i] - p;
-                pvel += p;
-            }
+                Vector3 pvel = Vector3.zero;
+                Vector3 rvel = Vector3.zero;
+                for(int i = 0; i < posTrackerLimit - 1; i++)
+                {
+                    Vector3 p = platformPrevPos[i + 1] - platformPrevPos[i];
+                    rvel += rightHandPrevPos[i + 1] - rightHandPrevPos[i] - p;
+                    pvel += p;
+                }
 
-            rightHeldBall.rb.useGravity = true;
-            rightHeldBall.held = false;
-            rightHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
-            rightHeldBall = null;
+                rightHeldBall.rb.useGravity = true;
+                rightHeldBall.held = false;
+                rightHeldBall.rb.velocity = (forceMultiplier * rvel + pvel) / (Time.fixedDeltaTime * (posTrackerLimit - 1));
+                rightHeldBall = null;
+            }
+            else
+            {
+                Destroy(rightHeldBall.gameObject);
+                rightHeldBall = null;
+            }
         }
     }
 }
