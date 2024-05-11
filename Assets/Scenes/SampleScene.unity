@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &38769077
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &41401591
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &49840000
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 0
 --- !u!65 &58270936
@@ -727,7 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 0
 --- !u!65 &66968653
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 2
   rotRange: 0
 --- !u!65 &89672185
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &154202659
@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &157252398
@@ -1718,7 +1718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &216987853
@@ -1786,7 +1786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.5
   rotRange: 0
 --- !u!65 &226675981
@@ -1854,7 +1854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &232629372
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &269951930
@@ -3705,7 +3705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &425670166
@@ -3925,7 +3925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &493830140
@@ -3993,7 +3993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &496367723
@@ -4346,7 +4346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.5
   rotRange: 0
 --- !u!65 &516201976
@@ -9449,7 +9449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 12
 --- !u!65 &547078973
@@ -9517,7 +9517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &553444871
@@ -9831,7 +9831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 2
   rotRange: 0
 --- !u!65 &588344295
@@ -9926,7 +9926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 0
 --- !u!65 &600372604
@@ -10146,7 +10146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &606616096
@@ -10300,7 +10300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.5
   rotRange: 0
 --- !u!65 &627159336
@@ -10368,7 +10368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &632189473
@@ -11222,7 +11222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &703539018
@@ -11290,7 +11290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.2
   rotRange: 0
 --- !u!65 &703992709
@@ -11358,7 +11358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &708493277
@@ -11426,7 +11426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &724569724
@@ -12253,7 +12253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &814183589
@@ -12428,7 +12428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0
   rotRange: 0
 --- !u!65 &822169617
@@ -12668,7 +12668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &840792671
@@ -12904,7 +12904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &850662383
@@ -12972,7 +12972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 2
   rotRange: 0
 --- !u!65 &851354361
@@ -13126,7 +13126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &861313014
@@ -13194,7 +13194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &864898591
@@ -13262,7 +13262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &868752409
@@ -13330,7 +13330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &872972078
@@ -13398,7 +13398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &891368087
@@ -13557,7 +13557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.2
   rotRange: 0
 --- !u!65 &938509889
@@ -13854,7 +13854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &958517596
@@ -14074,7 +14074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 5
   rotRange: 0
 --- !u!65 &1000287423
@@ -14378,7 +14378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.4
   rotRange: 0
 --- !u!65 &1019999203
@@ -14528,7 +14528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 0
 --- !u!65 &1033426296
@@ -14682,7 +14682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1062604039
@@ -14836,7 +14836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 2
   rotRange: 0
 --- !u!65 &1067105949
@@ -15083,7 +15083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.5
   rotRange: 0
 --- !u!65 &1095482934
@@ -15421,7 +15421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1171207135
@@ -15641,7 +15641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1209451565
@@ -15881,7 +15881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1226893670
@@ -16121,7 +16121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1284209334
@@ -16280,7 +16280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.5
   rotRange: 0
 --- !u!65 &1308732973
@@ -16713,7 +16713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1325821308
@@ -18196,7 +18196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1378786243
@@ -18295,7 +18295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1388519303
@@ -18449,7 +18449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1396150077
@@ -18689,7 +18689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1406895114
@@ -18950,7 +18950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1417402696
@@ -19401,7 +19401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1475959278
@@ -19469,7 +19469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 0
 --- !u!65 &1477712001
@@ -20047,7 +20047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0
   rotRange: 0
 --- !u!65 &1533146394
@@ -20262,7 +20262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1556465766
@@ -20502,7 +20502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0
   rotRange: 0
 --- !u!65 &1609512810
@@ -20663,7 +20663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &1652214416
@@ -20878,7 +20878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1682989673
@@ -21098,7 +21098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1710434985
@@ -21166,7 +21166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &1719680775
@@ -21320,7 +21320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.4
   rotRange: 0
 --- !u!65 &1726577667
@@ -21476,7 +21476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1747127565
@@ -21544,7 +21544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &1751909764
@@ -21698,7 +21698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 2
   rotRange: 0
 --- !u!65 &1774142748
@@ -21908,7 +21908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1799678091
@@ -22094,7 +22094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.5
   rotRange: 0
 --- !u!65 &1817281691
@@ -22162,7 +22162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 0
 --- !u!65 &1824174026
@@ -22901,7 +22901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &1868651032
@@ -23035,7 +23035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1893455980
@@ -23103,7 +23103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1897813139
@@ -23257,7 +23257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1901862416
@@ -23314,6 +23314,7 @@ Transform:
   - {fileID: 1484751865}
   - {fileID: 583870275}
   - {fileID: 1379199662}
+  - {fileID: 2144992324}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906591770 stripped
@@ -23360,7 +23361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1906591774
@@ -23686,7 +23687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1940220146
@@ -24246,7 +24247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1993563416
@@ -24314,7 +24315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &1998241737
@@ -24382,7 +24383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.5
   rotRange: 0
 --- !u!65 &2001914290
@@ -24623,7 +24624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.25
   rotRange: 6
 --- !u!65 &2022020744
@@ -24691,7 +24692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &2033975532
@@ -24827,7 +24828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1.25
   rotRange: 0
 --- !u!65 &2062294027
@@ -25388,7 +25389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0
   rotRange: 0
 --- !u!1 &2113826740 stripped
@@ -25435,7 +25436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 0.75
   rotRange: 0
 --- !u!65 &2113826744
@@ -25503,7 +25504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &2118076849
@@ -25750,7 +25751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &2128382643
@@ -25818,7 +25819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b161c4b304ff364caa0b5e6e5bfdaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleEffect: {fileID: 0}
+  ParticleEffect: {fileID: 543420994}
   vertRange: 1
   rotRange: 0
 --- !u!65 &2134787975
@@ -25847,6 +25848,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6510260704896833569, guid: a382effdc18c19847850e87c9d70ffd1, type: 3}
   m_PrefabInstance: {fileID: 1443338481}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2144992323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144992324}
+  - component: {fileID: 2144992325}
+  m_Layer: 0
+  m_Name: PauseEndMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2144992324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144992323}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1902496400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2144992325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144992323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df1a76f1585fce40a459da8b084c398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputActions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  pauseAction:
+    m_Name: Pause
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b833708d-2594-41f9-b4ad-dc2f9cfaceb5
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  pause: 0
+  end: 0
 --- !u!1001 &9041360549034477897
 PrefabInstance:
   m_ObjectHideFlags: 0

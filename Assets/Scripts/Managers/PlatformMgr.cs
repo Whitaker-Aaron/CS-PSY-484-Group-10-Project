@@ -129,6 +129,7 @@ public class PlatformMgr : MonoBehaviour
             platform.acceleration = 0;
             platform.velocity = new Vector3 (0, 0, 0);
             platform.speedX = 0;
+            PauseEndMgr.instance.End();
         }
     }
 }
